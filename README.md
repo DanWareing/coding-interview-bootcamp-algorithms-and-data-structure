@@ -25,3 +25,8 @@ Companion repo to a course on Udemy.com
 ###### Learnings:
   'for' loops on arrays, 'in' loops on objects
   You can use the OR (||) operator to catch 'false' assignments, such as in "chars[char] = chars[char]+1 || 1;"
+
+#### [5] FizzBuzz
+  Given an integer, count up to it and print each number, unless it's divisible by three and/ or five
+###### Learnings:
+  N/a
