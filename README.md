@@ -19,3 +19,9 @@ Companion repo to a course on Udemy.com
 ###### Learnings:
   'Math.sign' will return -1 or 1 based on whether the given integer is positive or negative
   Javascript has the expected 'parseInt' and 'toString' functions
+
+#### [4] Max Char
+  Given a string, create a character map and return the most-frequently used character
+###### Learnings:
+  'for' loops on arrays, 'in' loops on objects
+  You can use the OR (||) operator to catch 'false' assignments, such as in "chars[char] = chars[char]+1 || 1;"
