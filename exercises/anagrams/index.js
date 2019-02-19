@@ -8,34 +8,33 @@
 //   anagrams('RAIL! SAFETY!', 'fairy tales') --> True
 //   anagrams('Hi there', 'Bye there') --> False
 
+// function anagrams(stringA, stringB) {
+//   const charMapA = buildCharMap(stringA);
+//   const charMapB = buildCharMap(stringB);
+//   for (let key in charMapA) {
+//     if (!charMapB.hasOwnProperty(key) || charMapB[key] !== charMapA[key]) {
+//       return false;
+//     } else {
+//       delete charMapB[key];
+//     }
+//   }
+//   return Object.keys(charMapB).length === 0;
+// }
+
+// function buildCharMap(givenString) {
+//   const charMap = {};
+//   for (let char of givenString.replace(/[^\w]/g, "").toLowerCase()) {
+//     charMap[char] = charMap[char]+1 || 1;
+//   }
+//   return charMap;
+// }
+
 function anagrams(stringA, stringB) {
+  return cleanString(stringA) === cleanString(stringB);
+}
 
-  const cleanA = stringA.replace(/[^\w]/g, "").toLowerCase();
-  const charMapA = {};
-  for (let char of cleanA) {
-    charMapA[char] = charMapA[char]+1 || 1;
-  }
-
-  const cleanB = stringB.replace(/[^\w]/g, "").toLowerCase();
-  const charMapB = {};
-  for (let char of cleanB) {
-    charMapB[char] = charMapB[char]+1 || 1;
-  }
-
-  for (let key in charMapA) {
-    if (!charMapB.hasOwnProperty(key) || charMapB[key] !== charMapA[key]) {
-      return false;
-    } else {
-      delete charMapB[key];
-    }
-  }
-  for (let key in charMapB) {
-    if (!charMapA.hasOwnProperty(key) || charMapA[key] !== charMapB[key]) {
-      return false;
-    }
-  }
-  return true;
-
+function cleanString(givenString) {
+  return givenString.replace(/[^\w]/g, "").toLowerCase().split('').sort().join('');
 }
 
 module.exports = anagrams;
