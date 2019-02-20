@@ -45,3 +45,9 @@ Companion repo to a course on Udemy.com
   Given an integer, incrementally console.log a new line in order to build a set of steps using hashes and spaces
 ###### Learnings:
 * `.fill()` can populate an array with any value you define
+
+#### [10] Vowels
+  Given a string, return a count of the number of vowels
+###### Learnings:
+* `.match()` returns an array of all characters matching the given RegEx
+
