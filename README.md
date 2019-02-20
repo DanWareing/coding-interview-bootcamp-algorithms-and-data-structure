@@ -37,3 +37,6 @@ Companion repo to a course on Udemy.com
   Given two strings, get the alphanumeric values and return true if they are anagrams of each other
 ###### Learnings:
 * `.sort()` can be used in this instance to 'group' identical characters together in a reliable order, ready for comparison
+
+#### [8] Capitalize
+  Given a sentence, capitalize the first letter of each word
