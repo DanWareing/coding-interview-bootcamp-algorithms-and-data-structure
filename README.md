@@ -40,3 +40,8 @@ Companion repo to a course on Udemy.com
 
 #### [8] Capitalize
   Given a sentence, capitalize the first letter of each word
+
+#### [9] Steps
+  Given an integer, incrementally console.log a new line in order to build a set of steps using hashes and spaces
+###### Learnings:
+* `.fill()` can populate an array with any value you define
