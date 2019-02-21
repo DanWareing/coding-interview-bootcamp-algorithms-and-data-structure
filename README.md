@@ -51,3 +51,13 @@ Companion repo to a course on Udemy.com
 ###### Learnings:
 * `.match()` returns an array of all characters matching the given RegEx
 
+#### [11] Matrix
+  Given a number, create an array of arrays that draws a spiralled square counting up to that value
+
+#### [12] Fibonacci Sequence
+  Given a number, return the value from that index in the Fibonacci sequence
+###### Learnings:
+* Recursion isn't as scary as it sounds
+* The recursive option is exponential time, and quickly spirals because there's no cached value as it calculates
+* Memoization is the process of caching the values if the function has already been run with the same params
+
