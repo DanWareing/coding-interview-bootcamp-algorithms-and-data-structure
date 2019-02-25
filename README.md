@@ -83,3 +83,9 @@ Companion repo to a course on Udemy.com
 ##### Learnings:
 * N/a
 
+### [20] Tree
+  Implement a tree
+##### Learnings:
+* Optimal solution to a tricky problem
+* The spread operator `...` can effectively function as a for loop over a collection
+
