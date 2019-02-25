@@ -64,6 +64,12 @@ Companion repo to a course on Udemy.com
 ...
 
 ### [16] Linked Lists
- To-do
+  To-do
 ##### Learnings:
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
+
+### [17] Midpoint
+  Given a linked list, return the middle value without using a counter or iterating over the list more than once
+##### Learnings:
+* N/a
+
