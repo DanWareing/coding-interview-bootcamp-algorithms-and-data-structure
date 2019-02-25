@@ -89,3 +89,7 @@ Companion repo to a course on Udemy.com
 * Optimal solution to a tricky problem
 * The spread operator `...` can effectively function as a for loop over a collection
 
+### [21] Tree Width Counter
+  Return an array of numbers that describes the width of a tree at each level
+##### Learnings:
+* Optimal solution to a tricky problem, any mention of width should indicate a breadth-first approach
