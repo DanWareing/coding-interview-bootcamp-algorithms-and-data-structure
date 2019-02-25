@@ -73,3 +73,13 @@ Companion repo to a course on Udemy.com
 ##### Learnings:
 * N/a
 
+### [18] Circular
+  Given a linked list, return true if one of the nodes references a previous node
+##### Learnings:
+* Optimal solution to a tricky problem
+
+### [19] From Last
+  Given a linked list, return the node that is _n_ away from the end of the linked list
+##### Learnings:
+* N/a
+
