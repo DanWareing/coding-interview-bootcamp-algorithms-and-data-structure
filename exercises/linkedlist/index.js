@@ -139,7 +139,7 @@ class LinkedList {
           yield node;
           node = node.next;
       }
-  }
+    }
 
 }
 

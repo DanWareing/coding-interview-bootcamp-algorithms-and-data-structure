@@ -61,3 +61,9 @@ Companion repo to a course on Udemy.com
 * The recursive option is exponential time, and quickly spirals because there's no cached value as it calculates
 * Memoization is the process of caching the values if the function has already been run with the same params
 
+...
+
+### [16] Linked Lists
+ To-do
+##### Learnings:
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators
