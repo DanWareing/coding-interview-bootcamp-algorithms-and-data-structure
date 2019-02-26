@@ -108,3 +108,8 @@ Companion repo to a course on Udemy.com
   Create an event handler
 ##### Learnings:
 * Using `delete` on an object will remove the key and any value
+
+### [25] Sorting
+  Implemement bubble, selection, and merge sorting
+##### Learnings:
+* To-do
