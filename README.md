@@ -95,6 +95,11 @@ Companion repo to a course on Udemy.com
 * Optimal solution to a tricky problem, any mention of width should indicate a breadth-first approach
 
 ### [22] Binary Trees
-  Create binary search tree functionality for insertion and validation
+  Create binary search tree functionality for insertion
+##### Learnings:
+* Optimal solution to a tricky problem
+
+### [23] Binary Trees
+  Create binary search tree functionality for validation
 ##### Learnings:
 * Optimal solution to a tricky problem
