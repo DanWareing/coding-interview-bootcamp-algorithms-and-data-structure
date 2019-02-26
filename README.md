@@ -103,3 +103,8 @@ Companion repo to a course on Udemy.com
   Create binary search tree functionality for validation
 ##### Learnings:
 * Optimal solution to a tricky problem
+
+### [24] Events
+  Create an event handler
+##### Learnings:
+* Using `delete` on an object will remove the key and any value
